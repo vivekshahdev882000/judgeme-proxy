@@ -1,0 +1,9 @@
+{
+  "name": "judgeme-reviews-proxy",
+  "version": "1.0.0",
+  "description": "Judge.me Reviews API Proxy for Decadedog",
+  "main": "api/reviews.js",
+  "engines": {
+    "node": "18.x"
+  }
+}

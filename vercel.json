@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "functions": {
+    "api/reviews.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "https://decadedog.com"
+        }
+      ]
+    }
+  ]
+}
